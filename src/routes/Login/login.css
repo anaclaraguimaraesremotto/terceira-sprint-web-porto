@@ -1,0 +1,43 @@
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+    text-align: center;
+    padding: 0 20px; 
+  
+    & h2 {
+      width: 100%;
+      margin-bottom: 20px;
+      color: white;
+    }
+  
+    & .form {
+      width: 40%;
+    }
+  
+    & label {
+      display: block;
+      color: white;
+    }
+  
+    & input {
+      border-radius: 7px;
+      padding: 12px 20px;
+      margin: 8px 0;
+      width: 100%;
+      background-color: white;
+      box-sizing: border-box;
+    }
+  
+    & .identacao {
+      display: flex;
+      justify-content: flex-start;
+      padding-left: 10px;
+  
+      & label {
+        padding-right: 15px;
+      }
+    }
+}
