@@ -1,0 +1,33 @@
+.vistoria{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    & h2{
+        color: white;
+        margin-bottom: 20px;
+    }
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+
+    & p{ 
+        background-color: white;
+        width: 100%;
+    }
+}
+
+
+.btnEnviar{
+    background-color: #092147;
+}
