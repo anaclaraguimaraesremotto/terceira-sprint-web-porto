@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 import './contato.css'
-Link
 
 export default function Contato(){
 
