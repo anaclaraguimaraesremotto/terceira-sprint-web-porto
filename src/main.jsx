@@ -44,6 +44,10 @@ const router = createBrowserRouter([
       {
         path:"/minhas-bikes",
         element: <MinhasBikes/>
+      },
+      {
+        path: '/antiga',
+        element: <Navigate to='/Home'/>
       }
     ]
   }
