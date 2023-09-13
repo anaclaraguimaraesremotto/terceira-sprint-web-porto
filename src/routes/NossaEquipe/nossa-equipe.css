@@ -1,0 +1,83 @@
+.nossa-equipe {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+    & h2 {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 2rem;
+    }
+  
+    & .equipe {
+      width: 100%; 
+      max-width: 800px; 
+      background-color: #7898C1;
+      color: #092147;
+      font-weight: bold;
+      border-radius: 10px;
+      padding: 30px;
+      margin: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+  
+      & img {
+        border-radius: 11px;
+        max-width: 100%;
+      }
+  
+      & .box1,
+      .box2 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+  
+        & p {
+          display: flex;
+          width: 100%;
+          justify-content: center;
+          margin-top: 5px;
+          font-size: 1rem;
+        }
+  
+        & #ana,
+        #antonio,
+        #giovanni{
+          display: flex;
+          width: 33%; 
+          justify-content: center;
+          padding-left: 30px;
+          flex-wrap: wrap;
+          box-sizing: border-box;
+        }
+
+        & #leonardo,
+        #gabriel {
+          display: flex;
+          width: 50%; 
+          justify-content: center;
+          padding-left: 30px;
+          flex-wrap: wrap;
+          box-sizing: border-box;
+        }
+      }
+    }
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .nossa-equipe {
+      & .equipe {
+        padding: 20px; 
+      }
+    }
+  }
