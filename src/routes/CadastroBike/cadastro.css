@@ -1,0 +1,54 @@
+.cadastroBike{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+    & h2{
+        min-width: 100%;
+        margin-bottom: 20px;
+        color: white;
+    }
+  
+    & .formBike{
+        width: 100%;
+    }
+  
+    & label{
+        display: block;
+        color: white;
+    }
+    
+    & .input, select, option{
+        border-radius: 7px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        width: 40%;
+        background-color: white;
+        box-sizing: border-box;        
+    }& .identacao{
+        display: flex;
+        margin-left: 30%;
+        justify-content: left;
+        padding-left: 10px;
+
+        & label{
+            padding-right: 15px;
+        }
+
+        & input[type=radio]{
+            margin-right: 5px;
+        }
+    }
+        
+    & textarea{
+        width: 40%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border-radius: 7px;
+        background-color: white;
+        margin-top: 10px;
+        resize: none;
+    }
+}
