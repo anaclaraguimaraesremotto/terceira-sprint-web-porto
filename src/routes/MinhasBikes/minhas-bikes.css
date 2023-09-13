@@ -1,68 +1,68 @@
 .minhas-bikes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+
+  & .btn-adc{
+    margin-left: 85%; 
+
+    & a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  & h2 {
+    color: white;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+
+  & .box-bike {
+    display: flex;
+    align-items: center;
     width: 100%;
-    flex-wrap: wrap;
-    padding-bottom: 20px;
-  
-    & .btn-adc{
-      margin-left: 85%; 
-  
-      & a {
-        text-decoration: none;
-        color: white;
-      }
-    }
-  
-    & h2 {
-      color: white;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 20px;
-      font-size: 1.5rem;
-    }
-  
-    & .box-bike {
-      display: flex;
-      align-items: center;
-      width: 100%;
-      max-width: 800px;
-      background-color: white;
-      border-radius: 10px;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+
+    & img {
       padding: 10px;
-      margin: 10px;
-  
-      & img {
-        padding: 10px;
-        margin-right: 20px;
-        max-width: 100%;
+      margin-right: 20px;
+      max-width: 100%;
+    }
+
+    & .dados {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      & p {
+        padding: 5px;
+        font-size: 0.9rem;
       }
-  
-      & .dados {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-  
-        & p {
-          padding: 5px;
-          font-size: 0.9rem;
-        }
-  
-        & .btn-apaga {
-          margin-left: auto; 
-        }
+
+      & .btn-apaga {
+        margin-left: auto; 
       }
     }
   }
-  
-  
-  @media screen and (max-width: 768px) {
-    .minhas-bikes {
-      & .box-bike {
-        max-width: 100%;
-      }
+}
+
+
+@media screen and (max-width: 768px) {
+  .minhas-bikes {
+    & .box-bike {
+      max-width: 100%;
     }
   }
+}
