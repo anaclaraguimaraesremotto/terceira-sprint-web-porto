@@ -19,7 +19,7 @@
         color: white;
     }
 
-    &.input, textarea{
+    & .input, textarea{
         font-size: 30px;
     }
     
