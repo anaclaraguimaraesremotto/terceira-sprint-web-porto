@@ -19,10 +19,6 @@
         color: white;
     }
 
-    & .input, textarea{
-        font-size: 30px;
-    }
-    
     & .input, select, option{
         border-radius: 7px;
         padding: 12px 20px;
