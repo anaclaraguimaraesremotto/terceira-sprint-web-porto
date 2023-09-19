@@ -33,7 +33,7 @@ export default function CadastroBike() {
             </div>
             <div>
                                 <label  for="numero_serie" className='identacao'>Número de série:</label>
-                                <input type="number" className='input' name="numero_serie" placeholder="Digite o número de série" required/>
+                                <input type="text" className='input' name="numero_serie" placeholder="Digite o número de série" required/>
                             </div>
                             <div >
                                 <div className='identacao'>
