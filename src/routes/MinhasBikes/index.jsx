@@ -14,9 +14,9 @@ export default function MinhasBikes() {
           <div className="box-bike" >
             <img src={BikeFake} alt="bike ilustrativa" />
             <div className="dados">
-              <p>Número de série:</p>
-              <p>Modelo:</p>
-              <p>Categoria:</p>
+              <p>Número de série: SM2023B12345</p>
+              <p>Modelo: SpeedMaster TurboX</p>
+              <p>Categoria: Mountain Bike</p>
               <button type="button" className="btn-apaga">
               <Link to="/cadastro-bike">Alterar</Link>
               </button>

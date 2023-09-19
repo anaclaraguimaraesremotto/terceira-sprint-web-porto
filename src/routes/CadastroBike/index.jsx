@@ -10,14 +10,14 @@ export default function CadastroBike() {
         <section className="formBike">
                 <form action="/cadastrar-bike" >
                     <div>
-                        <label for="marca" className='identacao'>Marca:</label>
+                        <label for="marca" className='identacao'>Modelo:</label>
                         <input type="text" className='input' id="marca" name="marca"
-                            placeholder="Digite a marca da bike" required/>
+                            placeholder="Digite o modelo da bike" required/>
                     </div>
                     <div>
-                        <label for="modelo" className='identacao'>Modelo:</label>
+                        <label for="modelo" className='identacao'>Categoria:</label>
                         <input type="text" className='input' id="modelo" name="modelo"
-                            placeholder="Digite o modelo da bike" required/>
+                            placeholder="Digite a categoria da bike" required/>
                     </div>
 
             <div>
@@ -32,7 +32,7 @@ export default function CadastroBike() {
                             </select>
             </div>
             <div>
-                                <label  for="numero_serie" className='identacao'>Número de série:</label>
+                                <label  for="numero_serie" className='identacao'>Número de série: </label>
                                 <input type="text" className='input' name="numero_serie" placeholder="Digite o número de série" required/>
                             </div>
                             <div >
